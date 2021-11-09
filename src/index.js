@@ -2,19 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-class Square extends React.Component {
-  render() {
-    return (
-      <button 
-        className="square" 
-        onClick={() => this.props.onClick()}>
-        {this.props.value}
-      </button>
-    );
-  }
+function Square(props) {
+  return (
+    <button className="square" onClick={props.onClick}>
+      {props.value}
+    </button>
+  );
 }
 
 class Board extends React.Component {
+  // Now the state is stored in the Board component
   constructor(props) {
     super(props);
     this.state = {
