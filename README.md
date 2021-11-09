@@ -2,6 +2,10 @@
 
 ## My approach
 Using this project to improve my React skills, making a tictactoe game.
+Click the squares and it switches turn from 'X' to 'O', winner is determined when three rows are the same.
+
+## Screenshot
+![Imgur](https://i.imgur.com/ZNHqmnT.png)
 
 ### `npm start`
 
